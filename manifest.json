@@ -1,11 +1,15 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "CopyChat",
   "version": "1.0",
   "description": "Easily share your ChatGPT conversations as images or markdown.",
   "permissions": ["activeTab"],
-  "browser_action": {
-    "default_icon": "icon.png",
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
     "default_popup": "popup.html",
     "default_title": "CopyChat"
   },
